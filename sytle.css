@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+.geral{
+    
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top,#3c006b,#9948d9);
+    /* background: linear-gradient(black, white); */
+    /* background: linear-gradient(45deg, darkred 30%, crimson); */
+    color: white;
+    padding: 7rem 2rem 4rem 2rem;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+.link a{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: currentColor;
+    /* pode se colocar, white ou usar currentcolor, basicamente vai pegar a cor matriz ou raiz */
+    display: inline-block;
+    width: 300px;
+    padding: 30px 60px;
+    border: 1px solid #9948d9;
+    background-color: #3c006b;
+    text-decoration: none;
+    /* text-decoration:none ultilizado para tira a linha de baxio do link ou a */
+}
+.geral a:hover{
+    /* vai meio q deixar selecionado  */
+border: 1px solid #3c006b;
+background-color: #9948d9;
+}
+.geral p{
+    font-size: 1.2rem;
+    font-style:oblique;
+}
